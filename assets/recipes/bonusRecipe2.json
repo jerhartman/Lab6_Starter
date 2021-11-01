@@ -1,0 +1,242 @@
+{
+    "@context": "http://schema.org",
+    "url": "https://www.thepioneerwoman.com/food-cooking/recipes/a11239/homemade-applesauce/",
+    "publisher": {
+        "@type": "Organization",
+        "name": "The Pioneer Woman",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://assets.hearstapps.com/sites/thepioneerwoman/assets/images/logos/logo-jsonld.f682059.png",
+            "width": 250,
+            "height": 60
+        }
+    },
+    "@type": "Recipe",
+    "author": {
+        "name": "Ree Drummond",
+        "@type": "Person"
+    },
+    "datePublished": "2013-10-16T12:21:15Z",
+    "headline": "Homemade Applesauce",
+    "image": {
+        "@type": "ImageObject",
+        "height": 2154,
+        "thumbnail": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/applesauce-1597268703.jpg?crop=0.636xw:0.709xh;0.192xw,0.0625xh&resize=100:*",
+        "url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/applesauce-1597268703.jpg",
+        "width": 2400
+    },
+    "mainEntityOfPage": {
+        "@id": "https://www.thepioneerwoman.com/food-cooking/recipes/a11239/homemade-applesauce/",
+        "@type": "WebPage"
+    },
+    "thumbnailUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/applesauce-1597268703.jpg?crop=0.636xw:0.709xh;0.192xw,0.0625xh&resize=100:*",
+    "dateModified": "2020-08-14T22:02:00Z",
+    "name": "Homemade Applesauce",
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "recipeIngredient": ["6 lb. <p>apples, peeled, cored, and cut into 8 slices</p>", "1 c. <p>apple juice or apple cider</p>", "<p>Juice of 1 lemon</p>", "1/2 c. <p>brown sugar, packed</p>", "1 tsp. <p>cinnamon, more or less to taste</p>", "<p>Optional ingredients: Nutmeg, maple syrup, allspice, butter, to taste</p>"],
+    "recipeInstructions": "Combine all ingredients in a large pot and cook over medium heat, stirring occasionally, for 25 minutes.&nbsp; Carefully puree in a food processor or blender (don't fill too full; split into two portions if needed) until smooth. Store in the fridge and serve by itself, over pork chops, over ice cream, over pancakes...or any place where applesauce is needed!",
+    "video": [],
+    "recipeCuisine": [],
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 11,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [{
+        "@context": "http://schema.org/",
+        "@type": "Review",
+        "datePublished": "2021-02-11",
+        "author": {
+            "@context": "http://schema.org/",
+            "@type": "Person",
+            "name": "ccr6027"
+        },
+        "reviewBody": "Made as written with the exception that I used Splenda Brown Sugar (1/4) cup.  Amazingly good!  I used apples that were a little past their prime for munching on.",
+        "reviewRating": {
+            "@context": "http://schema.org/",
+            "@type": "Rating",
+            "ratingValue": 5,
+            "worstRating": 1,
+            "bestRating": 5
+        }
+    }, {
+        "@context": "http://schema.org/",
+        "@type": "Review",
+        "datePublished": "2020-10-07",
+        "author": {
+            "@context": "http://schema.org/",
+            "@type": "Person",
+            "name": "lettiequo"
+        },
+        "reviewBody": "I've never made apple sauce from scratch, but this was SO GOOD. I used apple cider for the liquid, used more cinnamon, some nutmeg, and allspice. I also used honey crisp and Fuji apples (the only apples I like). Will definitely make again.",
+        "reviewRating": {
+            "@context": "http://schema.org/",
+            "@type": "Rating",
+            "ratingValue": 5,
+            "worstRating": 1,
+            "bestRating": 5
+        }
+    }, {
+        "@context": "http://schema.org/",
+        "@type": "Review",
+        "datePublished": "2020-11-01",
+        "author": {
+            "@context": "http://schema.org/",
+            "@type": "Person",
+            "name": "jar1639"
+        },
+        "reviewBody": "Freezes well ...I use freezer bags and flatten to take up less room and to help with thawing.",
+        "reviewRating": {
+            "@context": "http://schema.org/",
+            "@type": "Rating",
+            "ratingValue": 5,
+            "worstRating": 1,
+            "bestRating": 5
+        }
+    }, {
+        "@context": "http://schema.org/",
+        "@type": "Review",
+        "datePublished": "2020-10-11",
+        "author": {
+            "@context": "http://schema.org/",
+            "@type": "Person",
+            "name": "wam6562"
+        },
+        "reviewBody": "This was amazing!  I used Gala and Honeycrisp Apples.  One bag each.  I used about a tsp and a half of cinnamon.  I probably used 3/4 cup of packed dark brown sugar.  I wanted it a bit sweeter.  I did mine in a crockpot on low for 6 hours.  I had other things going on and couldn't babysit it on the stove top. I used a potato masher at the end.  We like it chunky.  It is so DELICIOUS!  It's cooling now.  \nMy husband has already had some on vanilla ice cream, loved it!  \nThanks Ree!",
+        "reviewRating": {
+            "@context": "http://schema.org/",
+            "@type": "Rating",
+            "ratingValue": 5,
+            "worstRating": 1,
+            "bestRating": 5
+        }
+    }, {
+        "@context": "http://schema.org/",
+        "@type": "Review",
+        "datePublished": "2020-10-26",
+        "author": {
+            "@context": "http://schema.org/",
+            "@type": "Person",
+            "name": "jackiv"
+        },
+        "reviewBody": "I save a ton of time and flavor by NOT peeling the apples. Just core and cut as she does. Once they have cooked for 25 minutes, put them through a Foley Food Mill, which takes no time at all and eliminates using a modern appliance. (Who couldn't use a little upper arm twirls?) The recipe is excellent and is my new go-to applesauce recipe. If you noticed, this recipe actually makes 6-7 PINTS, not cups of applesauce. I also used extra sugar - about another 1/2 cup.",
+        "reviewRating": {
+            "@context": "http://schema.org/",
+            "@type": "Rating",
+            "ratingValue": 5,
+            "worstRating": 1,
+            "bestRating": 5
+        }
+    }, {
+        "@context": "http://schema.org/",
+        "@type": "Review",
+        "datePublished": "2020-12-03",
+        "author": {
+            "@context": "http://schema.org/",
+            "@type": "Person",
+            "name": "reneehopkins"
+        },
+        "reviewBody": "This is the best & easiest apple sauce recipe ever!  So simple to make I used Truvia Brown Sugar as to add minimal extra calories, because this is so yummy you will eat it up quickly! I also love extra cinnamon, allspice, vanilla & clove as a change up over the pure applesauce. Either way this is an exceptional recipe & I love the funny quips she shares.\u2764\ufe0f\u2764\ufe0f\u2764\ufe0f",
+        "reviewRating": {
+            "@context": "http://schema.org/",
+            "@type": "Rating",
+            "ratingValue": 5,
+            "worstRating": 1,
+            "bestRating": 5
+        }
+    }, {
+        "@context": "http://schema.org/",
+        "@type": "Review",
+        "datePublished": "2021-09-05",
+        "author": {
+            "@context": "http://schema.org/",
+            "@type": "Person",
+            "name": "NoSugarAdded"
+        },
+        "reviewBody": "No good reason to peel apples unless they\u2019re not organic I believe. Why throw out those nutrients? Made batch last night using cored and chopped apples no one would eat. Used apple cider vinegar and a splash of water to get the necessary liquid, plus fresh squeezed lemon juice and cinnamon and covered pot to cook it to desired tenderness.\nPur\u00e9ed with immersion blender.\nNo sugar necessary and everyone ate it all up, straight out of the pot. (Who raised this crew!?)\nFinal thought was it tasted like fresh apple pie without the crust.\n\nExcellent way to use old apples!!",
+        "reviewRating": {
+            "@context": "http://schema.org/",
+            "@type": "Rating",
+            "ratingValue": 5,
+            "worstRating": 1,
+            "bestRating": 5
+        }
+    }, {
+        "@context": "http://schema.org/",
+        "@type": "Review",
+        "datePublished": "2021-10-21",
+        "author": {
+            "@context": "http://schema.org/",
+            "@type": "Person",
+            "name": "lau6692"
+        },
+        "reviewBody": "Delicious!  Perfect flavor and texture.  Getting oral surgery tomorrow and can only eat pureed food.  At least there is one meal I am looking forward to eating!",
+        "reviewRating": {
+            "@context": "http://schema.org/",
+            "@type": "Rating",
+            "ratingValue": 5,
+            "worstRating": 1,
+            "bestRating": 5
+        }
+    }, {
+        "@context": "http://schema.org/",
+        "@type": "Review",
+        "datePublished": "2020-08-18",
+        "author": {
+            "@context": "http://schema.org/",
+            "@type": "Person",
+            "name": "moe3928"
+        },
+        "reviewBody": "I used to make applesauce years ago and freeze it.  Of course that was when we had fruit farms where we could pick apples... I miss all of that.",
+        "reviewRating": {
+            "@context": "http://schema.org/",
+            "@type": "Rating",
+            "ratingValue": 5,
+            "worstRating": 1,
+            "bestRating": 5
+        }
+    }, {
+        "@context": "http://schema.org/",
+        "@type": "Review",
+        "datePublished": "2020-08-30",
+        "author": {
+            "@context": "http://schema.org/",
+            "@type": "Person",
+            "name": "dkeim"
+        },
+        "reviewBody": "OMGosh.  This was the best ever applesauce. My grandbabies loved the smell. Couldn't wait to try it. Big batch like it chuncky. I honestly don't think that it made it long enough to even cool down. Thank you so much.",
+        "reviewRating": {
+            "@context": "http://schema.org/",
+            "@type": "Rating",
+            "ratingValue": 5,
+            "worstRating": 1,
+            "bestRating": 5
+        }
+    }, {
+        "@context": "http://schema.org/",
+        "@type": "Review",
+        "datePublished": "2020-10-11",
+        "author": {
+            "@context": "http://schema.org/",
+            "@type": "Person",
+            "name": "alley2681"
+        },
+        "reviewBody": "Have never tried to make homemade applesauce ever!!! My daughter LOVES applesauce, she is 3. She went apple picking with her big brother and brought home a bushel!!! So needless to say,I had to figure something out. Couldn't let them go to waste. Amazing and simple recipe to follow. This was so good, of course I had to try it & my daughter loves it!!! She is the biggest critic and she loves this recipe. I will definitely be using it again.",
+        "reviewRating": {
+            "@context": "http://schema.org/",
+            "@type": "Rating",
+            "ratingValue": 5,
+            "worstRating": 1,
+            "bestRating": 5
+        }
+    }],
+    "recipeCategory": ["dessert", "fruit", "side dish"],
+    "recipeYield": "12 servings",
+    "description": "This apple sauce recipe is the easiest, most delicious treat you can make to have as a snack, condiment, or an ingredient for other meals.",
+    "keywords": "Recipes, Cooking, Food"
+}

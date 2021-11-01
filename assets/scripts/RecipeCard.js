@@ -1,8 +1,7 @@
 class RecipeCard extends HTMLElement {
   constructor() {
-    // Part 1 Expose - TODO
-
-    // You'll want to attach the shadow DOM here
+    super();
+    this.attachShadow({mode: 'open'});
   }
 
   set data(data) {
@@ -99,7 +98,58 @@ class RecipeCard extends HTMLElement {
     // Make sure to attach your root element and styles to the shadow DOM you
     // created in the constructor()
 
-    // Part 1 Expose - TODO
+    let picture = document.createElement('img');
+    picture.src = searchForKey(data, 'thumbnailUrl');
+    picture.alt = searchForKey(data, 'name');
+    card.appendChild(picture);
+
+    let title = document.createElement('p');
+    title.setAttribute('class', 'title');
+    //title.class = 'title';
+    let linkTitle = document.createElement('a');
+    linkTitle.href = getUrl(data);
+    linkTitle.innerHTML = searchForKey(data, 'headline');
+    title.appendChild(linkTitle);
+    card.appendChild(title);
+
+    let organization = document.createElement('p');
+    organization.setAttribute('class', 'organization');
+    //organization.class = 'organization';
+    organization.innerHTML = getOrganization(data);
+    card.appendChild(organization);
+
+    let divRating = document.createElement('div');
+    divRating.setAttribute('class', 'rating');
+    //divRating.class = 'rating';
+    let avgReview = document.createElement('span');
+    if(searchForKey(data, 'aggregateRating') == null) {
+      avgReview.innerHTML = 'no reviews';
+      divRating.appendChild(avgReview);
+    }
+    else {
+      avgReview.innerHTML = searchForKey(data, 'aggregateRating')['ratingValue'];
+      divRating.appendChild(avgReview);
+      let stars = document.createElement('img');
+      stars.src = '/assets/images/icons/' + Math.round(searchForKey(data, 'aggregateRating')['ratingValue']) + '-star.svg';
+      stars.alt = Math.round(searchForKey(data, 'aggregateRating')['ratingValue']) + " stars";
+      divRating.appendChild(stars);
+      let numReviews = document.createElement('span');
+      numReviews.innerHTML = '(' + searchForKey(data, 'aggregateRating')['ratingCount'] + ')';
+      divRating.appendChild(numReviews);
+    }
+    card.appendChild(divRating);
+
+    let time = document.createElement('time');
+    time.innerHTML = convertTime(searchForKey(data, 'totalTime'));
+    card.appendChild(time);
+
+    let ingredients = document.createElement('p');
+    ingredients.setAttribute('class', 'ingredients');
+    ingredients.innerHTML = createIngredientList(searchForKey(data, 'recipeIngredient'));
+    card.appendChild(ingredients);
+
+    this.shadowRoot.appendChild(styleElem);
+    this.shadowRoot.appendChild(card);
   }
 }
 

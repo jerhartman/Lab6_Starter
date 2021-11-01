@@ -1,0 +1,84 @@
+{
+    "@context": "http://schema.org",
+    "url": "https://www.thepioneerwoman.com/food-cooking/recipes/a37287021/italian-christmas-cookies-recipe/",
+    "publisher": {
+        "@type": "Organization",
+        "name": "The Pioneer Woman",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://assets.hearstapps.com/sites/thepioneerwoman/assets/images/logos/logo-jsonld.f682059.png",
+            "width": 250,
+            "height": 60
+        }
+    },
+    "@type": "Recipe",
+    "datePublished": "2021-09-17T18:00:28.465115Z",
+    "headline": "Italian Christmas Cookies",
+    "image": {
+        "@type": "ImageObject",
+        "height": 1067,
+        "thumbnail": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/italian-christmas-cookie-recipe1-1631636369.jpg?crop=0.534xw:0.801xh;0.231xw,0.122xh&resize=100:*",
+        "url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/italian-christmas-cookie-recipe1-1631636369.jpg",
+        "width": 1600
+    },
+    "mainEntityOfPage": {
+        "@id": "https://www.thepioneerwoman.com/food-cooking/recipes/a37287021/italian-christmas-cookies-recipe/",
+        "@type": "WebPage"
+    },
+    "thumbnailUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/italian-christmas-cookie-recipe1-1631636369.jpg?crop=0.534xw:0.801xh;0.231xw,0.122xh&resize=100:*",
+    "name": "Italian Christmas Cookies",
+    "prepTime": "PT25M",
+    "cookTime": "PT0S",
+    "totalTime": "PT2H35M",
+    "recipeIngredient": ["2/3 c. <p>granulated sugar</p>", "1 <p>stick unsalted butter, softened</p>", "2 tsp. <p>vanilla extract</p>", "3/4 tsp. <p>almond extract</p>", "3 <p>large eggs</p>", "2 1/2 c. <p>all-purpose flour, plus more for dusting</p>", "2 tsp. <p>baking powder</p>", "3/4 tsp. <p>salt</p>", "2 c. <p>powdered sugar</p>", "3 tbsp. <p>milk</p>", "1/2 tsp. <p>vanilla extract</p>", "<p>Red and green Jimmy sprinkles, for decorating</p>"],
+    "recipeInstructions": "For the cookies: In the bowl of a stand mixer fitted with a paddle attachment, beat the sugar, butter, vanilla extract and almond extract on medium until smooth and fluffy, about 2 minutes. Add the eggs and beat until combined. (The batter will look separated.) With the mixer on low, gradually add the flour, baking powder and salt. Beat until all of the dry ingredients are incorporated. Wrap the dough tightly in plastic wrap and chill for at least 1 hour or up to 4 hours. Preheat the oven to 350\u00b0F. Shape the dough into about 36, 1-inch balls (lightly dusting hands with flour, as needed) and place on 2 parchment-lined baking sheets, spacing each at least 1-inch apart. Or, if desired, roll each dough ball between your hands (lightly dusting in flour if needed) into a 4-inch long log and coil each piece into a mound. Bake the cookies until set and very lightly browned on the bottom, 10 to 12 minutes. Transfer the cookies to a wire rack to cool completely, about 30 minutes. For the glaze: In a medium bowl, whisk together the powdered sugar, milk and vanilla extract. Dip the top of each cookie in the glaze, allowing the excess to drip off and then sprinkle with the Jimmy sprinkles. Let the cookies stand until the glaze hardens, about 30 minutes.",
+    "video": [],
+    "recipeCuisine": ["American", "Comfort Food", "Italian"],
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 2,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [{
+        "@context": "http://schema.org/",
+        "@type": "Review",
+        "datePublished": "2021-09-19",
+        "author": {
+            "@context": "http://schema.org/",
+            "@type": "Person",
+            "name": "srm6766"
+        },
+        "reviewBody": "My mom would also use coaco  or melted chocolate  and add candied fruit and or an almond on top for both types",
+        "reviewRating": {
+            "@context": "http://schema.org/",
+            "@type": "Rating",
+            "ratingValue": 5,
+            "worstRating": 1,
+            "bestRating": 5
+        }
+    }, {
+        "@context": "http://schema.org/",
+        "@type": "Review",
+        "datePublished": "2021-09-23",
+        "author": {
+            "@context": "http://schema.org/",
+            "@type": "Person",
+            "name": "ire1491"
+        },
+        "reviewBody": "We used anise extract in the coating. Everyone loves these.",
+        "reviewRating": {
+            "@context": "http://schema.org/",
+            "@type": "Rating",
+            "ratingValue": 5,
+            "worstRating": 1,
+            "bestRating": 5
+        }
+    }],
+    "recipeCategory": ["Christmas", "baking", "comfort food", "dessert", "snack"],
+    "recipeYield": "3 dozen",
+    "description": "Italian Christmas Cookies\ufeff will be a new favorite at this year's Christmas cookie swap. They're simple and elegant, with a texture similar to a thick, just-set sugar cookie.",
+    "keywords": "American, Christmas, Comfort Food, Italian, baking, comfort food, dessert, snack"
+}
