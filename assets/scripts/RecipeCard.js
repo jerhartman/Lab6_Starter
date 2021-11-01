@@ -130,7 +130,7 @@ class RecipeCard extends HTMLElement {
       avgReview.innerHTML = searchForKey(data, 'aggregateRating')['ratingValue'];
       divRating.appendChild(avgReview);
       let stars = document.createElement('img');
-      stars.src = '/assets/images/icons/' + Math.round(searchForKey(data, 'aggregateRating')['ratingValue']) + '-star.svg';
+      stars.src = 'assets/images/icons/' + Math.round(searchForKey(data, 'aggregateRating')['ratingValue']) + '-star.svg';
       stars.alt = Math.round(searchForKey(data, 'aggregateRating')['ratingValue']) + " stars";
       divRating.appendChild(stars);
       let numReviews = document.createElement('span');
